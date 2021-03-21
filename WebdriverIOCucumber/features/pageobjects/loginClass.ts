@@ -154,17 +154,17 @@ class Register
     {
         actions.setValueIn(this.cityElement,text);
     }
-    enterState()
+    enterState(text)
     {
-        this.stateElement.selectByAttribute('value','5');
+        this.stateElement.selectByAttribute('value',text);
     }
     enterPinCode(text)
     {
         actions.setValueIn(this.pinCodeElement,text);
     }
-    entercountry()
+    entercountry(text)
     {
-        this.countryElement.selectByAttribute('value','21');
+        this.countryElement.selectByAttribute('value',text);
     }
     enterMobileNUmber(text)
     {
